@@ -25,7 +25,6 @@ Try predicting what will be printed in the console.log statement below. Then, ch
 function addTen(x) {
   return x + 10;
 }
-
 function divideByThree(y) {
   return y / 3;
 }
@@ -33,3 +32,9 @@ function divideByThree(y) {
 var result = addTen(2);
 console.log(divideByThree(result));  
 // The divideByThree() function will divide the value of 12 by 3 and return 4!
+
+
+//I love you - Sampoo
+console.log('I love Sampoo.' + ' She is the best!');
+
+
