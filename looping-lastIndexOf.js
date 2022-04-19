@@ -1,7 +1,7 @@
 function lastIndexOf(array, value) {
   let number = 0;
   let foundMatch = false; // this flag is to check if a match has been made.
-  for (let i = array.length - 1; i >= 0; i--) { // -1 so it starts from the end. When counting backwards, the array needs to start at numbers.length -1, or an out of bounds number will be evaluated instead of what is desired. The second parameter in the for loop needs to be i >= 0, or it will never be array[0].
+  for (let i = array.length ; i >= 0; i--) { // -1 so it starts from the end. When counting backwards, the array needs to start at numbers.length -1, or an out of bounds number will be evaluated instead of what is desired. The second parameter in the for loop needs to be i >= 0, or it will never be array[0].
     if (array[i] === value) {
       number = i;
       foundMatch = true;
